@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Libeldata — Automatización para clínicas dentales en Colombia</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<button class="float-btn" id="floatBtn" onclick="scrollToggle()">
+  <svg id="floatIcon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<nav>
+  <div class="inner">
+    <div class="nav-inner">
+      <a href="#" class="logo-text" style="text-decoration:none; color:inherit;">Libel<span>data</span></a>
+      <ul class="nav-links">
+        <li><a href="#problema">El problema</a></li>
+        <li><a href="#servicio">Servicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#precios">Precios</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="https://wa.me/57TUNUMERO" class="nav-cta">Hablar por WhatsApp</a>
+    </div>
+  </div>
+</nav>
+<section class="hero">
+  <div class="inner">
+    <div class="hero-grid">
+      <div data-anim="fade-down">
+        <div class="hero-badge">Automatización para clínicas dentales</div>
+        <h1>Tu clínica dental trabajando,<br><span>sin perder una cita</span></h1>
+        <p>Automatizamos la gestión de citas de tu clínica dental por WhatsApp. Sin esfuerzo de tu parte, sin cambiar nada de lo que ya haces.</p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/57TUNUMERO" class="btn-primary">Hablar por WhatsApp</a>
+          <a href="#servicio" class="btn-secondary">Ver cómo funciona →</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="stat-value">18–22%</div><div class="stat-label">citas perdidas sin sistema</div></div>
+          <div><div class="stat-value">$5M</div><div class="stat-label">COP perdidos al mes</div></div>
+          <div><div class="stat-value">48h</div><div class="stat-label">para tener tu sistema activo</div></div>
+        </div>
+      </div>
+      <div data-anim="fade-right" style="flex:1;">
+      <div class="hero-visual" style="animation: floatUp 3s ease-in-out infinite alternate; height:100%;">
+        <div class="mock-header"><span class="mock-title">Panel de citas — hoy</span><span class="mock-badge">● En vivo</span></div>
+        <div class="mock-stat-row">
+          <div class="mock-stat"><div class="mock-stat-val">14</div><div class="mock-stat-lbl">Total citas</div></div>
+          <div class="mock-stat"><div class="mock-stat-val">11</div><div class="mock-stat-lbl">Confirmadas</div></div>
+          <div class="mock-stat"><div class="mock-stat-val">3</div><div class="mock-stat-lbl">Pendientes</div></div>
+        </div>
+        <div class="mock-list">
+          <div class="mock-row"><span>María González — 9:00am</span><span class="mock-row-status status-ok">Confirmada</span></div>
+          <div class="mock-row"><span>Carlos Ruiz — 10:30am</span><span class="mock-row-status status-ok">Confirmada</span></div>
+          <div class="mock-row"><span>Ana Torres — 11:00am</span><span class="mock-row-status status-pending">Pendiente</span></div>
+          <div class="mock-row"><span>Luis Mora — 2:00pm</span><span class="mock-row-status status-no">No confirmó</span></div>
+          <div class="mock-row"><span>Sara López — 3:30pm</span><span class="mock-row-status status-ok">Confirmada</span></div>
+          <div class="mock-row"><span>Pedro Vargas — 4:00pm</span><span class="mock-row-status status-ok">Confirmada</span></div>
+          <div class="mock-row"><span>Sofía Ramírez — 4:30pm</span><span class="mock-row-status status-pending">Pendiente</span></div>
+          <div class="mock-row"><span>Andrés Molina — 5:00pm</span><span class="mock-row-status status-ok">Confirmada</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="carousel-section">
+  <div class="carousel-label" data-anim="fade-up">Tecnología que nos respalda</div>
+  <div class="carousel-track-wrapper" data-anim="fade-up" data-delay="150">
+    <div class="carousel-track">
+      <!-- First set -->
+      <div class="carousel-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Make">
+        <span>Make.com</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        <span>WhatsApp Business</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" alt="Sheets">
+        <span>Google Sheets</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg" alt="Calendar">
+        <span>Google Calendar</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
+        <span>Gmail</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.worldvectorlogo.com/logos/twilio.svg" alt="Twilio">
+        <span>Twilio</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" alt="Notion">
+        <span>Notion</span>
+      </div>
+      <!-- Duplicate for seamless loop -->
+      <div class="carousel-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Make">
+        <span>Make.com</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        <span>WhatsApp Business</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" alt="Sheets">
+        <span>Google Sheets</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg" alt="Calendar">
+        <span>Google Calendar</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
+        <span>Gmail</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.worldvectorlogo.com/logos/twilio.svg" alt="Twilio">
+        <span>Twilio</span>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" alt="Notion">
+        <span>Notion</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<section class="section" id="problema">
+  <div class="inner">
+    <div class="section-header-centered" data-anim="fade-down">
+    <div class="section-label">El problema</div>
+    <div class="section-title">Las citas perdidas cuestan más<br>de lo que crees</div>
+    <p class="section-sub">Un negocio con 15 citas diarias perdiendo el 20% sin sistema está dejando ir más de $5M COP cada mes.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card" data-anim="fade-up" data-delay="0"><div class="problem-icon"><svg width="28" height="28" fill="none" stroke="var(--yellow)" stroke-width="1.8" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div><h3>Recordatorios manuales</h3><p>Tu recepcionista pierde horas enviando mensajes uno a uno. Tiempo que podría usarse en atención a tus pacientes.</p></div>
+      <div class="problem-card" data-anim="fade-up" data-delay="0"><div class="problem-icon"><svg width="28" height="28" fill="none" stroke="var(--yellow)" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93l14.14 14.14"/></svg></div><h3>Pacientes que no avisan</h3><p>El 27% de tus pacientes cancela a última hora sin previo aviso. Sin sistema, esa silla queda vacía y el ingreso se pierde.</p></div>
+      <div class="problem-card" data-anim="fade-up" data-delay="0"><div class="problem-icon"><svg width="28" height="28" fill="none" stroke="var(--yellow)" stroke-width="1.8" viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div><h3>Sin datos reales</h3><p>¿Cuántos pacientes no llegaron este mes? Sin métricas, es imposible saber cuánto dinero estás dejando ir.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section service-section" id="servicio">
+  <div class="inner">
+    <div class="section-header-centered" data-anim="fade-down">
+    <div class="section-label">El servicio</div>
+    <div class="section-title">Todo configurado por nosotros.<br>Tú solo atiendes a tus clientes.</div>
+    </div>
+    <div class="service-grid">
+      <div class="service-list" data-anim="fade-left">
+        <div class="service-item active" onclick="showPanel(0)"><div class="service-num">01</div><div><h4>Recordatorios automáticos por WhatsApp</h4><p>El sistema envía recordatorios 24h antes de cada cita, sin que nadie lo haga manualmente.</p></div></div>
+        <div class="service-item" onclick="showPanel(1)"><div class="service-num">02</div><div><h4>Confirmación automática del paciente</h4><p>El paciente responde y el sistema registra si confirma, cancela o necesita reprogramar.</p></div></div>
+        <div class="service-item" onclick="showPanel(2)"><div class="service-num">03</div><div><h4>Lista de citas en tiempo real</h4><p>Tu equipo ve qué citas están confirmadas, cuáles pendientes y cuáles en riesgo.</p></div></div>
+        <div class="service-item" onclick="showPanel(3)"><div class="service-num">04</div><div><h4>Reporte mensual de métricas</h4><p>Cada mes recibes un reporte con citas perdidas, recuperadas y el impacto económico.</p></div></div>
+      </div>
+      <div style="position:relative; display:flex; flex-direction:column;" data-anim="fade-right">
+        <!-- Panel 01: Recordatorios -->
+        <div class="service-panel hero-visual active" id="sp-0" style="animation:none; flex:1; height:100%;">
+          <div class="mock-header"><span class="mock-title">📱 Recordatorios enviados hoy</span><span class="mock-badge">● Automático</span></div>
+          <div class="mock-stat-row">
+            <div class="mock-stat"><div class="mock-stat-val">24</div><div class="mock-stat-lbl">Enviados</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">22</div><div class="mock-stat-lbl">Entregados</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">2</div><div class="mock-stat-lbl">Pendientes</div></div>
+          </div>
+          <div class="mock-list">
+            <div class="mock-row"><span>María González — "Su cita es mañana a las 9am"</span><span class="mock-row-status status-ok">Enviado</span></div>
+            <div class="mock-row"><span>Carlos Ruiz — "Recuerde su cita hoy a las 10:30am"</span><span class="mock-row-status status-ok">Enviado</span></div>
+            <div class="mock-row"><span>Ana Torres — "Su cita es mañana a las 11am"</span><span class="mock-row-status status-ok">Enviado</span></div>
+            <div class="mock-row"><span>Luis Mora — "Recordatorio de cita hoy"</span><span class="mock-row-status status-pending">Pendiente</span></div>
+            <div class="mock-row"><span>Pedro Vargas — "Su cita es mañana a las 4pm"</span><span class="mock-row-status status-ok">Enviado</span></div>
+            <div class="mock-row"><span>Sofía Ramírez — "Su cita es mañana a las 5pm"</span><span class="mock-row-status status-ok">Enviado</span></div>
+          </div>
+        </div>
+        <!-- Panel 02: Confirmaciones -->
+        <div class="service-panel hero-visual" id="sp-1" style="animation:none; flex:1; height:100%;">
+          <div class="mock-header"><span class="mock-title">✅ Confirmaciones recibidas</span><span class="mock-badge">● En vivo</span></div>
+          <div class="mock-stat-row">
+            <div class="mock-stat"><div class="mock-stat-val">18</div><div class="mock-stat-lbl">Confirmadas</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">3</div><div class="mock-stat-lbl">Canceladas</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">3</div><div class="mock-stat-lbl">Sin resp.</div></div>
+          </div>
+          <div class="mock-list">
+            <div class="mock-row"><span>María González — "Sí confirmo mi cita"</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Carlos Ruiz — "No puedo ir, cancelo"</span><span class="mock-row-status status-no">Cancelada</span></div>
+            <div class="mock-row"><span>Ana Torres — "Ahí estaré puntual"</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Luis Mora — Sin respuesta</span><span class="mock-row-status status-pending">Sin resp.</span></div>
+            <div class="mock-row"><span>Pedro Vargas — "Confirmo asistencia"</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Sofía Ramírez — Sin respuesta aún</span><span class="mock-row-status status-pending">Sin resp.</span></div>
+          </div>
+        </div>
+        <!-- Panel 03: Lista en tiempo real -->
+        <div class="service-panel hero-visual" id="sp-2" style="animation:none; flex:1; height:100%;">
+          <div class="mock-header"><span class="mock-title">📋 Panel de citas — hoy</span><span class="mock-badge">● En vivo</span></div>
+          <div class="mock-stat-row">
+            <div class="mock-stat"><div class="mock-stat-val">14</div><div class="mock-stat-lbl">Total citas</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">11</div><div class="mock-stat-lbl">Confirmadas</div></div>
+            <div class="mock-stat"><div class="mock-stat-val">3</div><div class="mock-stat-lbl">Pendientes</div></div>
+          </div>
+          <div class="mock-list">
+            <div class="mock-row"><span>María González — 9:00am</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Carlos Ruiz — 10:30am</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Ana Torres — 11:00am</span><span class="mock-row-status status-pending">Pendiente</span></div>
+            <div class="mock-row"><span>Luis Mora — 2:00pm</span><span class="mock-row-status status-no">No confirmó</span></div>
+            <div class="mock-row"><span>Pedro Vargas — 4:00pm</span><span class="mock-row-status status-ok">Confirmada</span></div>
+            <div class="mock-row"><span>Sofía Ramírez — 5:00pm</span><span class="mock-row-status status-pending">Pendiente</span></div>
+          </div>
+        </div>
+        <!-- Panel 04: Reporte mensual -->
+        <div class="service-panel hero-visual" id="sp-3" style="animation:none; flex:1; height:100%;">
+          <div class="mock-header"><span class="mock-title">📊 Reporte — Octubre 2025</span><span class="mock-badge">Mensual</span></div>
+          <div class="mock-stat-row">
+            <div class="mock-stat"><div class="mock-stat-val">312</div><div class="mock-stat-lbl">Citas totales</div></div>
+            <div class="mock-stat"><div class="mock-stat-val" style="color:#64d278;">94%</div><div class="mock-stat-lbl">Asistencia</div></div>
+            <div class="mock-stat"><div class="mock-stat-val" style="color:#e05555;">6%</div><div class="mock-stat-lbl">No shows</div></div>
+          </div>
+          <div class="mock-list">
+            <div class="mock-row"><span>Citas recuperadas vs mes anterior</span><span class="mock-row-status status-ok">+14%</span></div>
+            <div class="mock-row"><span>Ingresos recuperados estimados</span><span class="mock-row-status status-ok">+$2.4M COP</span></div>
+            <div class="mock-row"><span>Recordatorios enviados</span><span class="mock-row-status status-ok">624</span></div>
+            <div class="mock-row"><span>Tiempo ahorrado recepción</span><span class="mock-row-status status-ok">~18 horas</span></div>
+            <div class="mock-row"><span>Satisfacción pacientes</span><span class="mock-row-status status-ok">4.8/5</span></div>
+            <div class="mock-row"><span>Próxima meta de asistencia</span><span class="mock-row-status status-ok">96%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-section" id="nosotros">
+  <div class="inner">
+    <div class="section-header-centered" data-anim="fade-down">
+    <div class="section-label">Sobre nosotros</div>
+    <div class="section-title">Nacimos para resolver un problema real</div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text" data-anim="fade-left">
+        <p>Somos un equipo joven de Bogotá apasionado por la tecnología y los datos. Vimos de cerca cómo clínicas dentales pequeñas perdían pacientes y dinero por procesos manuales que nadie tenía tiempo de mejorar.</p>
+        <p>Por eso creamos Libeldata: una agencia de automatización para clínicas dentales que entra, configura todo, y se asegura de que funcione mes a mes sin que el odontólogo tenga que preocuparse por nada técnico.</p>
+        <div class="about-values">
+          <div class="about-value"><div class="about-value-dot"></div><div><h4>Simplicidad</h4><p>Sin tecnicismos, sin complicaciones.</p></div></div>
+          <div class="about-value"><div class="about-value-dot"></div><div><h4>Resultados</h4><p>Solo cobramos lo que genera valor.</p></div></div>
+          <div class="about-value"><div class="about-value-dot"></div><div><h4>Confianza</h4><p>Soporte real, no bots ni formularios.</p></div></div>
+          <div class="about-value"><div class="about-value-dot"></div><div><h4>Local</h4><p>Hecho en Colombia, para Colombia.</p></div></div>
+        </div>
+      </div>
+      <div class="about-numbers" data-anim="fade-right">
+        <div class="about-number-item"><div class="about-number-val">48h</div><div class="about-number-lbl">Tiempo máximo de implementación desde que nos contratas</div></div>
+        <div class="about-number-item"><div class="about-number-val">$0</div><div class="about-number-lbl">Costo para el cliente si el sistema no funciona correctamente</div></div>
+        <div class="about-number-item"><div class="about-number-val">100%</div><div class="about-number-lbl">Configurado por nosotros. Tú no tocas nada técnico.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="precios" style="text-align:center;">
+  <div class="inner">
+<div data-anim="fade-down"><div class="section-label">Precios</div>
+    <div class="section-title">Simple y transparente</div>
+    <p class="section-sub" style="margin:0 auto;">Sin contratos largos ni letras pequeñas.</p></div>
+    <div class="pricing-grid" data-anim="fade-up">
+      <div class="pricing-card">
+        <div class="pricing-label">Instalación única</div>
+        <div class="pricing-value">$60 <span>USD</span></div>
+        <div class="pricing-desc">Pago único para activar tu sistema.</div>
+        <ul class="pricing-features">
+          <li>✓ Configuración completa del bot</li>
+          <li>✓ Conexión con tu agenda actual</li>
+          <li>✓ Integración con WhatsApp</li>
+          <li>✓ Capacitación al equipo (1h)</li>
+          <li>✓ Prueba de 7 días incluida</li>
+        </ul>
+        <p style="font-size:12px; color:var(--gray); text-align:center; margin-top:auto; padding-top:16px;">Incluido con cualquier plan mensual</p>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-featured-badge">Recomendado</div>
+        <div class="pricing-label">Mensualidad</div>
+        <div class="pricing-value">$80 <span>USD/mes</span></div>
+        <div class="pricing-desc">Todo lo que necesitas para no perder una cita.</div>
+        <ul class="pricing-features">
+          <li>✓ Recordatorios automáticos 24/7</li>
+          <li>✓ Confirmaciones y cancelaciones</li>
+          <li>✓ Panel de citas en tiempo real</li>
+          <li>✓ Reporte mensual de métricas</li>
+          <li>✓ Soporte directo por WhatsApp</li>
+          <li>✓ Ajustes y mantenimiento incluidos</li>
+        </ul>
+        <a href="https://wa.me/57TUNUMERO?text=Hola%2C%20quiero%20el%20plan%20mensual%20de%20Libeldata%20para%20mi%20cl%C3%ADnica" class="pricing-btn pricing-btn-featured">Quiero este plan →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section faq-section" id="faq">
+  <div class="inner">
+    <div class="section-header-centered" data-anim="fade-down">
+    <div class="section-label">Preguntas frecuentes</div>
+    <div class="section-title">Resolvemos tus dudas</div>
+    <p class="section-sub">Las preguntas más comunes antes de contratarnos.</p>
+    </div>
+    <div class="faq-list" data-anim="fade-left">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">¿No puedo hacer esto yo mismo con WhatsApp Business?<span class="faq-icon"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-answer">WhatsApp Business permite mensajes manuales, pero alguien tiene que enviarlos uno a uno. Nuestro sistema lo hace automáticamente, incluso a las 10pm o los domingos, sin que nadie lo opere.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">¿Cuánto tiempo tarda la implementación?<span class="faq-icon"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-answer">Máximo 48 horas desde que nos contratas. Nosotros configuramos todo, tú nos das acceso a tu información y el sistema queda funcionando.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">¿Qué pasa si el sistema falla?<span class="faq-icon"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-answer">El soporte está incluido en la mensualidad. Si algo falla, nos avisas por WhatsApp y lo resolvemos. Si el sistema no funciona correctamente, no cobramos ese mes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">¿Necesito cambiar cómo manejo mis citas hoy?<span class="faq-icon"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-answer">No. Seguimos trabajando con lo que ya tienes. No tienes que aprender ninguna herramienta nueva ni cambiar tus procesos.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">¿Hay contrato de permanencia?<span class="faq-icon"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-answer">No. Puedes cancelar cuando quieras. Confiamos en que los resultados hablan por sí solos y no necesitamos atarte con contratos.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta-section">
+  <div class="inner">
+<div data-anim="fade-up"><h2>¿Listo para que tu clínica<br>no pierda ni una cita más?</h2>
+    <p>Escríbenos hoy y en menos de 48 horas tu clínica dental tiene el sistema activo.</p>
+    </div>
+    <a href="https://wa.me/57TUNUMERO" class="whatsapp-btn" data-anim="fade-up" data-delay="150">
+      <svg width="20" height="20" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.122 1.525 5.856L.057 23.857a.75.75 0 0 0 .92.92l6.001-1.468A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+      Contáctanos por WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer class="footer-main">
+  <div class="inner">
+    <div class="footer-top" data-anim="fade-up">
+      <div class="footer-brand">
+        <a href="#" class="logo-text" style="text-decoration:none; color:inherit; font-size:18px;">Libel<span>data</span></a>
+        <p class="footer-tagline">Automatización inteligente para clínicas en Colombia.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" title="LinkedIn"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-btn" title="Instagram"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-btn" title="WhatsApp"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.122 1.525 5.856L.057 23.857a.75.75 0 00.92.92l6.001-1.468A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Servicios</h4>
+          <ul class="footer-links">
+            <li><a href="#servicio">Recordatorios por WhatsApp</a></li>
+            <li><a href="#servicio">Confirmación automática</a></li>
+            <li><a href="#servicio">Panel en tiempo real</a></li>
+            <li><a href="#servicio">Reportes mensuales</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Empresa</h4>
+          <ul class="footer-links">
+            <li><a href="#nosotros">Sobre nosotros</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+            <li><a href="#problema">El problema</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contacto</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/57TUNUMERO">WhatsApp</a></li>
+            <li><a href="mailto:hola@libeldata.com">hola@libeldata.com</a></li>
+            <li><a href="#">Bogotá, Colombia</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-text">© 2025 Libeldata. Todos los derechos reservados.</span>
+      <div class="footer-legal">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos de uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
